@@ -2,12 +2,23 @@
 // We need to install the C++ extension for VS code
 // We need to have a C++ compiler installed, such as g++
 
+// #include <iostream>
+
+// int main() {
+
+//    auto result = (20 <=> 10) > 10;
+//    std::cout << "Results: " << result << std::endl;
+//    return 0;
+
+//}
+
+#include <compare>
 #include <iostream>
 
 int main() {
+    auto result = 20 <=> 10;
 
-    auto result = (20 <=> 10) > 10;
-    std::cout << "Results: " << result << std::endl;
-    return 0;
-
+    if (result > 0) {
+        std::cout << "greater\n";
+    }
 }

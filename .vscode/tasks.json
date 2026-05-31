@@ -10,8 +10,9 @@
 				"-g",
 				"-std=c++14",
 				"${file}",
-				"-o",
-				"${fileDirname}/${fileBasenameNoExtension}"
+				"${workspaceFolder}/src/*.cpp",
+                "-o",
+                "${workspaceFolder}/bin/outputfile",
 			],
 			"options": {
 				"cwd": "${fileDirname}"
