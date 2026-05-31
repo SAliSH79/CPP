@@ -3,11 +3,12 @@
 	"tasks": [
 		{
 			"type": "cppbuild",
-			"label": "C/C++: g++ build active file",
+			"label": "Build with GCC 9.4.0",
 			"command": "/usr/bin/g++",
 			"args": [
 				"-fdiagnostics-color=always",
 				"-g",
+				"-std=c++14",
 				"${file}",
 				"-o",
 				"${fileDirname}/${fileBasenameNoExtension}"
