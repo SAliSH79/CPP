@@ -12,13 +12,27 @@
 
 //}
 
-#include <compare>
+//#include <compare>
+//#include <iostream>
+
+//int main() {
+//    auto result = 20 <=> 10;
+
+//    if (result > 0) {
+//        std::cout << "greater\n";
+//     }
+// }
+
 #include <iostream>
+using namespace std;
 
 int main() {
-    auto result = 20 <=> 10;
-
-    if (result > 0) {
-        std::cout << "greater\n";
-    }
+  cout << "Hello World!";
+  cout << "I am learning C++";
+  return 0;
 }
+
+// A computer program is a list of "instructions" to be "executed" by a computer.
+
+// In a programming language, these programming instructions are called statements.
+
