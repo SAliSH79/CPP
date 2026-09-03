@@ -27,7 +27,9 @@
 using namespace std;
 
 int main() {
-  cout << "Hello World!";
+  cout << "Hello World! \n";
+  cout << 3 * 4;
+  cout << "\n";
   cout << "I am learning C++";
   return 0;
 }
