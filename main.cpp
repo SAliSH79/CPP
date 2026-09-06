@@ -27,7 +27,7 @@
 using namespace std;
 
 int main() {
-
+  
   int myage = 25;
   char Name = 'A';
   double grade = 75.67;
@@ -36,5 +36,8 @@ int main() {
   cout << 3 * 4;
   cout << "\n";
   cout << "I am learning C++";
+  cout << "\n";
+  auto result = (10 <=> 20) > 0;
+  cout << result << endl;
   return 0;
 }
