@@ -27,14 +27,14 @@
 using namespace std;
 
 int main() {
+
+  int myage = 25;
+  char Name = 'A';
+  double grade = 75.67;
+  cout << "I am " << Name << ", with " << myage << " age, grade " << grade << "\n";
   cout << "Hello World! \n";
   cout << 3 * 4;
   cout << "\n";
   cout << "I am learning C++";
   return 0;
 }
-
-// A computer program is a list of "instructions" to be "executed" by a computer.
-
-// In a programming language, these programming instructions are called statements.
-
