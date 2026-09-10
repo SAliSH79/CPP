@@ -39,5 +39,15 @@ int main() {
   cout << "\n";
   auto result = (10 <=> 20) > 0;
   cout << result << endl;
+  
+  double length;
+  double width;
+  double area;
+  cout << "Type a length:" <<endl;
+  cin >> length;
+  cout << "type your width" << endl;
+  cin >> width;
+  area = width * length;
+  cout << area << endl;
   return 0;
 }
