@@ -41,6 +41,8 @@ int main() {
   int myage = 25;
   char Name = 'A';
   double grade = 75.67;
+  auto myDar = true;
+  auto Mydate = 2026; // Auto automatacally detects the data type of the variable
   cout << "I am " << Name << ", with " << myage << " age, grade " << grade << "\n";
   cout << "Hello World! \n";
   cout << 3 * 4;
