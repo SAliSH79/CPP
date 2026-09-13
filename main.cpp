@@ -23,6 +23,16 @@
 //     }
 // }
 
+/*
+float vs. double
+
+The precision of a floating point value indicates how many digits the value can 
+have after the decimal point. The precision of float is only six or seven decimal
+ digits, while double variables have a precision of about 15 digits. Therefore it
+  is safer to use double for most calculations.
+*/
+
+// This is iostream library and std namespace
 #include <iostream>
 using namespace std;
 
