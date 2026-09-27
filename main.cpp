@@ -61,5 +61,12 @@ int main() {
   cin >> width;
   area = width * length;
   cout << area << endl;
+
+    
+  double a = 10.0;
+  int b = 3;
+  float result = a / b;
+  cout << result << endl;
+  
   return 0;
 }
